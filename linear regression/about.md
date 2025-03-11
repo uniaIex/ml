@@ -1,4 +1,6 @@
+```
 learning objectives:
+
     -explain a loss function and how it works
     -define/describe how gradient descent finds the optimal model parameters
     -describe how to tune hyperparameters to efficiently train a liniar model
@@ -57,3 +59,5 @@ learning objectives:
                 *2 common techniques to get the right gradient on average without needing to look at every eample in the dataset are stochastic gradient descent [SGD] / [mini-batch SGD] mini-batch stochastic gradient descent
             -epochs
                 *an epoch = the model has processed every example in the training set once
+
+                ```
