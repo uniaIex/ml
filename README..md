@@ -87,11 +87,3 @@ ML systems are categorized based on their learning paradigm:
 4. **Deployment**: Integrate models into real-world applications  
 
 ---
-
-## Getting Started
-To begin your ML journey:  
-1. Learn Python and libraries like `scikit-learn`, `TensorFlow`, or `PyTorch`  
-2. Experiment with datasets on platforms like [Kaggle](https://www.kaggle.com/)  
-3. Start with supervised learning projects (e.g., predicting house prices)  
-
-*"Machine learning is the foundation of AI’s future—and the future is here."*  
