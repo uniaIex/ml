@@ -61,7 +61,8 @@ This project demonstrates **multiple linear regression** using PyTorch's built-i
 - Fixes the intercept gradient bug from the original code.
 - Simplifies training loops and gradient updates.
 
-"""Key Changes Explained
+`Key Changes Explained`:
+```bash
 Data Handling
 Features are combined into a single tensor of shape (n_samples, 4) for compatibility with nn.Linear.
 
@@ -80,5 +81,5 @@ Gradient zeroing and updates are automated via optimizer.zero_grad() and optimiz
 Loss Calculation
 Built-in nn.MSELoss() replaces the manual MSE implementation.
 
-"""
+
 ---
