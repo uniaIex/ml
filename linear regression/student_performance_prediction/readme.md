@@ -67,13 +67,11 @@ Data Handling
 Features are combined into a single tensor of shape (n_samples, 4) for compatibility with nn.Linear.
 
 Model Definition
-
 nn.Linear(4, 1) replaces manual coefficient management.
 
 Automatically tracks weights (for features) and bias (intercept e).
 
 Optimization
-
 Uses torch.optim.SGD to handle parameter updates.
 
 Gradient zeroing and updates are automated via optimizer.zero_grad() and optimizer.step().
@@ -81,5 +79,10 @@ Gradient zeroing and updates are automated via optimizer.zero_grad() and optimiz
 Loss Calculation
 Built-in nn.MSELoss() replaces the manual MSE implementation.
 
+Feature-Target Relationships: Shows how each individual feature correlates with the target variable
 
----
+Residual Analysis: Checks if errors are normally distributed and homoscedastic
+
+Coefficient Importance: Visualizes the learned weights for each feature
+
+Enhanced Prediction Plot: Includes R² score and cleaner styling
