@@ -8,7 +8,7 @@ learning objectives:
     Liniar regression (mllr)
         *is a statistical technique used to find the relationship between variables. In a ml context, mllr finds the relationship between features and a label
 
-        equation: ![alt text](src/image.png)
+        equation: [alt text](/linear%20regression/src/image.png)
 
         y' = bias + weight1*feature1 + weight2*feature2 + weight3*feature3 + weight4*feature4
 
