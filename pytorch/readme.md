@@ -1,0 +1,1 @@
+curriculum based on freecodecamp's pytorch for deep learning and machine learning course
